@@ -1,0 +1,29 @@
+{
+    "name": "splittlogic/packager",
+    "description": "Laravel Package Creator",
+    "type": "l",
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SplittLogic",
+            "email": "splittlogic@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "splittlogic\\packager\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "splittlogic\\packager\\packagerServiceProvider"
+            ],
+            "aliases": {
+                "boom": "splittlogic\\packager\\Facades\\packager"
+            }
+        }
+    }
+}
