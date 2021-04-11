@@ -14,7 +14,7 @@ class packagerServiceProvider extends ServiceProvider
     */
     public function boot()
     {
-      $this->loadRoutesFrom(__DIR__.'../../routes/web.php');
+      $this->loadRoutesFrom(__DIR__.'/routes/web.php');
 
       // Publishing is only necessary when using the CLI.
       if ($this->app->runningInConsole()) {
