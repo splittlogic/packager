@@ -22,7 +22,7 @@
                 "splittlogic\\packager\\packagerServiceProvider"
             ],
             "aliases": {
-                "boom": "splittlogic\\packager\\Facades\\packager"
+                "boom": "splittlogic\\packager\\Facades\\packagemaker"
             }
         }
     }
